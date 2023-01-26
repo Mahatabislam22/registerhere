@@ -1,0 +1,87 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;;
+	fornt-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Lato', sans-serif;
+
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-height: 100;
+	height:auto;
+}
+
+.Login-box{
+	width:600px;
+	background:#eee;
+	margin: 40px auto 0px;
+	padding:40px
+	border:1px solide black;
+	border-radius:5px;
+}
+.Login-form{
+	width:100%;
+	
+}
+.avater{
+	width:100%;
+	text-align:center;
+}
+.avater img{
+	width:150px;
+	hight:150px;
+	border-radius:100%;
+	border:2px solid #000000;
+
+}
+.avater h1{
+	fornt-size:54px;
+	line-height:64px;
+	text-transform: uppercase;
+	font-weigth:400;
+}
+.from-group{
+	width:97%;
+	margin:10px 30px;
+}
+.from-group label{
+	display: block;
+	font-size:14px;
+	font-weight:600;
+	text-transform: uppercase;
+}
+.from-group  .from-control{
+	width: 90%;
+	padding: 10px;
+	font-size:14px;
+	line-height:24px;
+	color:#000;
+	border:1px solid black;
+	border-radius:5px;
+}
+.btn-primary{
+	padding:15px 40px;
+    margin: 10px 0px 0px ;
+	font-size:14px ;
+	font-weight:600;
+	text-transform: uppercase;
+	color:white;
+	background:black;
+	border:1px solid black;
+	border-radius:5px;
+}
+.btn-primary:hover{
+	cursor:pointer;
+	color:black;
+	background:white;
+	border:1px solid black;
+
+}
